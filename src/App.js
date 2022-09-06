@@ -9,11 +9,11 @@ import Quiz from './components/Quiz';
 
 
 function App() {
-  const [gameState , SetgameState] = useState("menu")
+  const [gameState , SetgameState] = useState("finished")
   const [userName , SetuserName] = useState("")
   const [score , Setscore] = useState(0)
 
-  console.log(gameState)
+  // console.log(gameState)
   return (
     <div className="App">
       <GamestateContext.Provider value={[gameState , SetgameState, userName , SetuserName , score , Setscore]}>

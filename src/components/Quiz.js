@@ -19,8 +19,11 @@ function Quiz() {
     }
 
     function FinishQuestion(){
+        if(Questions[currentQuestion].answer === choosenOption){
+            Setscore(score + 1)
+    } 
         SetgameState("finished")
-        console.log(gameState)
+        // console.log(gameState)
     }
  
     return (

@@ -1,0 +1,2 @@
+display score in endpage
+add a restart game button -- setGame state and gamescore to zero
